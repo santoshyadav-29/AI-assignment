@@ -1,0 +1,113 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.pyd
+*.so
+*.dll
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+.eggs/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage / type checking
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.pytest_cache/
+.hypothesis/
+.mypy_cache/
+.pyre/
+.dmypy.json
+
+# Jupyter
+.ipynb_checkpoints
+
+# Environments and tooling (avoid committing envs)
+.env
+.env.*
+*.env
+**/.env
+**/.env.*
+.envrc
+.python-version
+venv/
+.venv/
+ENV/
+env/
+myenv/
+.conda/
+.poetry/
+
+# Generic package directories
+**/site-packages/
+**/dist-packages/
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Secrets & keys
+secrets/
+.secrets/
+*.secret
+*.secrets
+secrets.*
+credentials.json
+credential*.json
+*credentials*.json
+*token*.json
+client_secret*.json
+service_account*.json
+gcloud-*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*.jks
+*.keystore
+*.csr
+
+# Project outputs
+company_info.csv
+companies.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Temp files
+*.tmp
+*.temp
+tmp/
+temp/
