@@ -23,7 +23,7 @@ This project extracts structured company information from an essay, paragraph-by
 
 ```powershell
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+.\.venv\Scripts\Activate
 ```
 
 2. Install dependencies:
@@ -82,11 +82,7 @@ GEMINI_API_KEY=your-key
 - `src/tools.py` – CSV and SQLite tools (agentic optional)
 - `data/essay.txt` – Input essay
 
-## Output Image Placeholder
 
-Add a screenshot of your CSV output to `docs/output.png` so it renders in this README:
-
-- Create the folder/file and drop your image there: `docs/output.png`
 
 ## Troubleshooting
 
